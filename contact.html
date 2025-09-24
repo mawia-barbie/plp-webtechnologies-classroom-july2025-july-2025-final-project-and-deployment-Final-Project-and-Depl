@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <div class="buttons">
+      <a href="index.html" class="btn one">Home</a>
+      <a href="about.html" class="btn one">About</a>
+      <a href="projects.html" class="btn one">Projects</a>
+      <a href="contact.html" class="btn one">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1 class="contact-title">
+      <span class="letter l">L</span>
+      <span class="letter e">e</span>
+      <span class="letter t">t</span>
+      <span class="letter s">’s</span>
+      <span class="letter c">C</span>
+      <span class="letter o">o</span>
+      <span class="letter n">n</span>
+      <span class="letter n2">n</span>
+      <span class="letter e2">e</span>
+      <span class="letter c2">c</span>
+      <span class="letter t2">t</span>
+    </h1>
+
+    <p class="contact-intro">
+      Ready to collaborate on your next project or discuss cybersecurity solutions?  
+      I’d love to hear from you!
+    </p>
+
+    <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" placeholder="your.email@example.com" required>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or how I can help you..." required></textarea>
+
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
